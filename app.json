@@ -1,7 +1,7 @@
 {
 	"name": "Heroku aria2c",
 	"description": "Run aria2c on heroku",
-	"repository": "https://github.com/moeik/heroku_aria2",
+	"repository": "https://github.com/moeik/Heroku_aria2",
 	"keywords": ["aria2c"],
 	"env": {
 		"HEROKU_APP_NAME": {
