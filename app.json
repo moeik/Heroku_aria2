@@ -1,6 +1,6 @@
 {
 	"name": "Heroku aria2c",
-	"description": "Run aria2c on heroku",
+	"description": "Run aria2 on heroku",
 	"repository": "https://github.com/moeik/heroku_aria2",
 	"keywords": ["aria2c"],
 	"env": {
@@ -13,7 +13,7 @@
 		},
 		"RCLONE_CONFIG": {
 			"description": "Rclone's configuration file, which adds \ n to the location of each line break.",
-			"required": false,
+			"required": false
 		},
 		"RCLONE_DESTINATION": {
 			"description": "Fill in a onedrive upload path.",
