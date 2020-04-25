@@ -17,8 +17,7 @@
 		},
 		"RCLONE_DESTINATION": {
 			"description": "Fill in a onedrive upload path.",
-			"required": false,
-			"value": "Just like：/update"
+			"required": false
 		}
 	},
 	"buildpacks": [
