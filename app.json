@@ -1,7 +1,7 @@
 {
 	"name": "Heroku aria2c",
 	"description": "Run aria2c on heroku",
-	"repository": "https://github.com/moeik/heroku-aria2",
+	"repository": "https://github.com/moeik/heroku_aria2",
 	"keywords": ["aria2c"],
 	"env": {
 		"HEROKU_APP_NAME": {
@@ -9,16 +9,16 @@
 		},
 		"ARIA2C_SECRET": {
 			"description": "Aria2c's secret",
-			"value": "这里填写后台密码"
+			"value": "password"
 		},
 		"RCLONE_CONFIG": {
-			"description": "Rclone的配置文件，将\n添加到每个换行符的位置",
+			"description": "Rclone's configuration file, which adds \ n to the location of each line break.",
 			"required": false,
 		},
 		"RCLONE_DESTINATION": {
-			"description": "填写一个OneDrive上传路径",
+			"description": "Fill in a onedrive upload path.",
 			"required": false,
-			"value": "如：/update"
+			"value": "Just like：/update"
 		}
 	},
 	"buildpacks": [
