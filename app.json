@@ -1,6 +1,6 @@
 {
 	"name": "Heroku aria2",
-	"description": "无需服务器即可离线下载并自动上传到OneDrive",
+	"description": "Aria2 for Heroku",
 	"repository": "https://github.com/moeik/Heroku_aria2",
 	"keywords": ["aria2c"],
 	"env": {
