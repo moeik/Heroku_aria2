@@ -13,7 +13,7 @@
 		},
 		"RCLONE_CONFIG": {
 			"description": "Rclone的配置文件，将\n添加到每个换行符的位置",
-			"required": false,
+			"required": false
 		},
 		"RCLONE_DESTINATION": {
 			"description": "填写一个OneDrive上传路径",
