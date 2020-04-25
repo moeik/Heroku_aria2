@@ -1,18 +1,18 @@
 {
-	"name": "Heroku aria2c",
-	"description": "Run aria2c on heroku",
+	"name": "Heroku aria2",
+	"description": "无需服务器即可离线下载并自动上传到OneDrive",
 	"repository": "https://github.com/moeik/Heroku_aria2",
 	"keywords": ["aria2c"],
 	"env": {
 		"HEROKU_APP_NAME": {
-			"description": "This should be the same as \"App name\" above."
+			"description": "填写你的 \"App name\"，保证和上面一样"
 		},
 		"ARIA2C_SECRET": {
 			"description": "填写一个后台密码",
-			"value": ""
+			"value": "password"
 		},
 		"RCLONE_CONFIG": {
-			"description": "每一行配置后面用\n替换换行符",
+			"description": "每一行配置后面用"\n"替换换行符",
 			"required": false
 		},
 		"RCLONE_DESTINATION": {
