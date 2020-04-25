@@ -2,7 +2,7 @@
 	"name": "Heroku aria2",
 	"description": "Aria2 for Heroku",
 	"repository": "https://github.com/moeik/Heroku_aria2",
-	"keywords": ["aria2c"],
+	"keywords": ["aria2"],
 	"env": {
 		"HEROKU_APP_NAME": {
 			"description": "填写你的 \"App name\"，保证和上面一样"
@@ -12,7 +12,7 @@
 			"value": "password"
 		},
 		"RCLONE_CONFIG": {
-			"description": "每一行配置后面用"\n"替换换行符",
+			"description": "每一行配置后面用\"\\n\"替换换行符",
 			"required": false
 		},
 		"RCLONE_DESTINATION": {
