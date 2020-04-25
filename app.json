@@ -8,15 +8,15 @@
 			"description": "This should be the same as \"App name\" above."
 		},
 		"ARIA2C_SECRET": {
-			"description": "Aria2c's secret",
-			"value": "密码"
+			"description": "填写一个后台密码",
+			"value": ""
 		},
 		"RCLONE_CONFIG": {
-			"description": "Rclone config to mount in one line, replace line breaks with \"\\n\"",
+			"description": "每一行配置后面用\n替换换行符",
 			"required": false
 		},
 		"RCLONE_DESTINATION": {
-			"description": "Path to store your file in your Rclone drive. Must start with a forward slash.",
+			"description": "填写一个OneDrive上传路径，如：/update",
 			"required": false
 		}
 	},
