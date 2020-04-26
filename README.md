@@ -3,7 +3,7 @@
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 ## 无需服务器即可离线下载并自动上传到OneDrive
-## 详细教程在 ![https://aroins.com/67](https://aroins.com/67)
+## 详细教程在 [https://aroins.com/67](https://aroins.com/67)
 
 1. 使用Rclone将OneDrive挂载到本地计算机
 2. 打开 `C:\Users\Administrator\.config\rclone\rclone.conf`文件：
