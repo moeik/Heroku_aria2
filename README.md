@@ -24,4 +24,4 @@ drive_id = xxx \n
 drive_type = xxx \n
 ```
 4. 将四行内容全部复制粘贴到 `RCLONE_CONFIG`
-6. 设置 `RCLONE_DESTINATION` 为OneDrive网盘上传路径，如：`/update` 注意：网盘内不能有这个路径
+6. 设置 `RCLONE_DESTINATION` 为OneDrive网盘上传路径，如：`/update`
