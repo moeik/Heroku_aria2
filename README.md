@@ -1,7 +1,8 @@
-# Heroku aria2
+# Heroku aria2 (弃)
+
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
-
+## 勿用
 ## 无需服务器即可离线下载并自动上传到OneDrive
 ## 详细教程在 [https://aroins.com/67](https://aroins.com/67)
 
